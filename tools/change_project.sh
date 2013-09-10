@@ -1,7 +1,6 @@
 #!/bin/bash
-
 if [ -z "${1}" ]; then 
-  path=`pwd`;
+  path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
   dir=`dirname $path`;
 else
   dir=$1; 
