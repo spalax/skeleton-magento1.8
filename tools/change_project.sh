@@ -26,10 +26,10 @@ while true; do
     esac
 done
 
-echo "Changing database name in app/etc/local.xml \n" &&
-sed -i 's/cosmetiki/'$project_name'/g' $dir/app/etc/local.xml &&
-echo "Changing data in schema/cosmetiki.sql \n" &&
-sed -i 's/cosmetiki/'$project_name'/g' $dir/schema/cosmetiki.sql &&
-echo "Renaming default file cosmetiki.sql to $project_name.sql \n" &&
-mv $dir/schema/cosmetiki.sql $dir/schema/$project_name.sql &&
+echo "Changing database name in app/etc/local.xml" &&
+sed -i 's/milcrew/'$project_name'/g' $dir/app/etc/local.xml &&
+echo "Changing data in schema/cosmetiki.sql" &&
+sed -i 's/milcrew/'$project_name'/g' $dir/schema/milcrew.sql &&
+echo "Renaming default file milcrew.sql to $project_name.sql" &&
+mv $dir/schema/milcrew.sql $dir/schema/$project_name.sql &&
 echo "Done successfully";

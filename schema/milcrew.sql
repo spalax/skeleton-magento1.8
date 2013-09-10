@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.70, for apple-darwin12.4.0 (i386)
 --
--- Host: localhost    Database: cosmetiki
+-- Host: localhost    Database: milcrew
 -- ------------------------------------------------------
 -- Server version	5.1.70
 
@@ -3756,7 +3756,7 @@ CREATE TABLE `core_config_data` (
 
 LOCK TABLES `core_config_data` WRITE;
 /*!40000 ALTER TABLE `core_config_data` DISABLE KEYS */;
-INSERT INTO `core_config_data` VALUES (1,'default',0,'general/region/display_all','1'),(2,'default',0,'general/region/state_required','AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US'),(3,'default',0,'catalog/category/root_id','2'),(4,'default',0,'web/seo/use_rewrites','1'),(5,'default',0,'admin/dashboard/enable_charts','1'),(6,'default',0,'web/unsecure/base_url','http://cosmetiki.in/'),(7,'default',0,'web/secure/base_url','http://cosmetiki.in/'),(8,'default',0,'general/locale/code','ru_RU'),(9,'default',0,'general/locale/timezone','Europe/Kiev'),(10,'default',0,'currency/options/base','UAH'),(11,'default',0,'currency/options/default','UAH'),(12,'default',0,'currency/options/allow','UAH');
+INSERT INTO `core_config_data` VALUES (1,'default',0,'general/region/display_all','1'),(2,'default',0,'general/region/state_required','AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US'),(3,'default',0,'catalog/category/root_id','2'),(4,'default',0,'web/seo/use_rewrites','1'),(5,'default',0,'admin/dashboard/enable_charts','1'),(6,'default',0,'web/unsecure/base_url','http://milcrew.in/'),(7,'default',0,'web/secure/base_url','http://milcrew.in/'),(8,'default',0,'general/locale/code','ru_RU'),(9,'default',0,'general/locale/timezone','Europe/Kiev'),(10,'default',0,'currency/options/base','UAH'),(11,'default',0,'currency/options/default','UAH'),(12,'default',0,'currency/options/allow','UAH');
 /*!40000 ALTER TABLE `core_config_data` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6379,7 +6379,7 @@ CREATE TABLE `log_url_info` (
 
 LOCK TABLES `log_url_info` WRITE;
 /*!40000 ALTER TABLE `log_url_info` DISABLE KEYS */;
-INSERT INTO `log_url_info` VALUES (1,'http://cosmetiki.in/index.php/','http://cosmetiki.in/index.php/install/wizard/end/');
+INSERT INTO `log_url_info` VALUES (1,'http://milcrew.in/index.php/','http://milcrew.in/index.php/install/wizard/end/');
 /*!40000 ALTER TABLE `log_url_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6436,7 +6436,7 @@ CREATE TABLE `log_visitor_info` (
 
 LOCK TABLES `log_visitor_info` WRITE;
 /*!40000 ALTER TABLE `log_visitor_info` DISABLE KEYS */;
-INSERT INTO `log_visitor_info` VALUES (1,'http://cosmetiki.in/index.php/install/wizard/end/','Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:23.0) Gecko/20100101 Firefox/23.0',NULL,'en,ru;q=0.5',2130706433,2130706433);
+INSERT INTO `log_visitor_info` VALUES (1,'http://milcrew.in/index.php/install/wizard/end/','Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:23.0) Gecko/20100101 Firefox/23.0',NULL,'en,ru;q=0.5',2130706433,2130706433);
 /*!40000 ALTER TABLE `log_visitor_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -11034,7 +11034,7 @@ LOCK TABLES `xmlconnect_queue` WRITE;
 UNLOCK TABLES;
 
 --
--- Dumping routines for database 'cosmetiki'
+-- Dumping routines for database 'milcrew'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
