@@ -27,9 +27,9 @@ while true; do
 done
 
 echo "Changing database name in app/etc/local.xml" &&
-sed -i 's/milcrew/'$project_name'/g' $dir/app/etc/local.xml &&
+sed -i '' 's/milcrew/'$project_name'/g' $dir/app/etc/local.xml &&
 echo "Changing data in schema/cosmetiki.sql" &&
-sed -i 's/milcrew/'$project_name'/g' $dir/schema/milcrew.sql &&
+sed -i '' 's/milcrew/'$project_name'/g' $dir/schema/milcrew.sql &&
 echo "Renaming default file milcrew.sql to $project_name.sql" &&
 mv $dir/schema/milcrew.sql $dir/schema/$project_name.sql &&
 echo "Done successfully";
