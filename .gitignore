@@ -1,3 +1,5 @@
 var/cache
 var/session
 var/report
+phpmyadmin
+.vagrant
