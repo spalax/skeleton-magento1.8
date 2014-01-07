@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
     }
 
     puppet.manifests_path = ".puppet/puppet/manifests"
+    puppet.module_path    = ".puppet/puppet/modules"
     puppet.options = ["--verbose", "--debug", "--hiera_config /vagrant/.puppet/hiera.yaml", "--parser future"]
   end
 
