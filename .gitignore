@@ -1,5 +1,4 @@
-var/cache
-var/session
-var/report
+var/
 phpmyadmin
 .vagrant
+media/catalog/product/cache/
